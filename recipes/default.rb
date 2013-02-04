@@ -1,6 +1,6 @@
 require 'chef/util/file_edit'
 
-package 'tzdata'
+package 'tzdata' unless platform? %w{gentoo}
 
 link '/etc/localtime' do
   filename = "/usr/share/zoneinfo/#{node['timezone']}"
