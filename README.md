@@ -4,7 +4,7 @@ This cookbook sets system time zone.
 
 # Requirements
 
-Compatible with Ubuntu, Debian, RHEL, CentOS, Amazon and Scientific Linux.
+Compatible with Ubuntu, Debian, RHEL, CentOS, Amazon, Scientific Linux, Gentoo.
 
 # Attributes
 
